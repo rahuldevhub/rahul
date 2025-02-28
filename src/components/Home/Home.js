@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
-import Type from "./Type";
+// import Type from "./Type";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -40,7 +40,7 @@ function Home() {
               </h1>
 
               <div className="type-div" style={{ paddingTop: 10, paddingBottom: 20, textAlign: "left" }}>
-                <Type />
+                {/* <Type /> */}
               </div>
               <ul className="home-about-social-links">
               <li className="social-icons">
